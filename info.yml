@@ -2,13 +2,13 @@ type: prog
 
 titre: Imprimer des Strings personalisés dans la console
 
-Objectif: Voir si l'élève peux bien appeller des variables sur Java
+objectif: Voir si l'élève peux bien appeller des variables sur Java
 
 énoncé: |
           La variable `MOTDONNÉ` contient un String. Affichez sur la console le contenu de la variable.
 
 rétroactions:
-  positive: **Très bien!** Vous avez maintenant réussi à chercher le contenu d'une variable.
+  positive: "**Très bien!** Vous avez maintenant réussi à chercher le contenu d'une variable."
   négative: "Encore un petit effort"
   erreur: "Vérifiez la syntaxe d'un appel de fonction"
 
