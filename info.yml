@@ -5,5 +5,45 @@ titre: Imprimer des Strings personalisés dans la console
 Objectif: Voir si l'élève peux bien appeller des variables sur Java
 
 énoncé: |
+          La variable `MOTDONNÉ` contient un String. Affichez sur la console le contenu de la variable.
+
+rétroactions:
+  positive: **Très bien!** Vous avez maintenant réussi à chercher le contenu d'une variable.
+  négative: "Encore un petit effort"
+  erreur: "Vérifiez la syntaxe d'un appel de fonction"
+
+
+ébauches: 
+  java: |
+      import java.util.Scanner;
+
+      public class Main {
+      //+VISIBLE
+        public static void main(String[] args) {
+          Scanner input = new Scanner( System.in );
+          String variable = input.nextLine();
+
+
+          //+TODO
+    
+
+          //-TODO
+
+          }
+          //-VISIBLE
+      }
+tests:
+ - nom: Afficher Montreal
+   entrée: Montreal
+   sortie: Montreal
+ - nom: Afficher Toronto
+   entrée: Toronto
+   sortie: Toronto  
+   rétroactions:
+     positive: Bien joué! Vous avez bien affiché le contenu d'une variable.
+     négative: Ce n'est pas vraiment ca
+
+        
+
         
         
